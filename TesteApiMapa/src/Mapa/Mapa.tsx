@@ -7,7 +7,7 @@ function Mapa() {
         const mapContainer = document.getElementById('map');
         if (mapContainer) {
             tt.map({
-                key: 'o0JA6AFfGiL8GFelg6TnTtH0zhwyfH8g',
+                key: '',
                 container: mapContainer,
             });
         }
