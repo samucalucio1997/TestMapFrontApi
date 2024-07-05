@@ -7,7 +7,7 @@ function Mapa() {
         const mapContainer = document.getElementById('map');
         if (mapContainer) {
             tt.map({
-                key: '',
+                key: 'chave-api',
                 container: mapContainer,
             });
         }
