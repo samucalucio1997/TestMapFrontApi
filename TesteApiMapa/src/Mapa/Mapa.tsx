@@ -8,17 +8,17 @@ function Mapa() {
     useEffect(() => {
         const mapContainer = document.getElementById('map');
         const compoMap = tt.map({
-            key: 'chave-api',
+            key: ' chave-api ',
             container: mapContainer? mapContainer : '',
         });
         var options = {
             searchOptions: {
-                key: 'chave-api',
+                key: ' chave-api ',
                 language: "pt-BR",
                 limit: 5,
               },
               autocompleteOptions: {
-                key: 'chave-api',
+                key: ' chave-api ',
                 language: "pt-BR",
               },
         }
@@ -27,7 +27,7 @@ function Mapa() {
         mapContainer?.appendChild(searchScreen);        
         
         services.calculateRoute({
-            key: 'chave-api',
+            key: ' chave-api ',
             locations: '-43.1729,-22.9068:-46.6333,-23.5505'
         }).then((routeData) => {
             const geojson = routeData.toGeoJson();
